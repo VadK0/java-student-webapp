@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Add student</title>
+	<script src="ajaxhelper.js"></script>
+	<script src="studentAdd.js"></script>
+</head>
+<body>
+	<form method="post" id="formStudent">
+		<label for="studentId">Id:</label><br>
+		<input type="text" id="studentId" name="studentId" value=""><br>
+		<label for="lName">Last name:</label><br>
+	  	<input type="text" id="lName" name="lName" value=""><br>
+	  	<label for="fName">First name:</label><br>
+	  	<input type="text" id="fName" name="fName" value=""><br>
+	  	<label for="address">Street address:</label><br>
+	  	<input type="text" id="address" name="address" value=""><br>
+	  	<label for="postCode">Post code:</label><br>
+	  	<input type="text" id="postCode" name="postCode" value=""><br>
+	  	<label for="postOffice">Post office:</label><br>
+	  	<input type="text" id="postOffice" name="postOffice" value=""><br>
+	  	
+	  	<input type="button" onclick="main()" value="Add">
+	  	<input type="button" onclick="goToMainPage()" value="Cancel">
+	</form> 
+</body>
+</html>

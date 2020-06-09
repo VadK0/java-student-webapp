@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Update student</title>
+	<script src="ajaxhelper.js"></script>
+	
+</head>
+<body>
+	<form id="formStudent">
+		<label for="studentId">Id:</label><br>
+		<input type="text" id="studentId" name="studentId" value=""><br>
+		<label for="lName">Last name:</label><br>
+	  	<input type="text" id="lName" name="lName" value=""><br>
+	  	<label for="fName">First name:</label><br>
+	  	<input type="text" id="fName" name="fName" value=""><br>
+	  	<label for="address">Street address:</label><br>
+	  	<input type="text" id="address" name="address" value=""><br>
+	  	<label for="postCode">Post code:</label><br>
+	  	<input type="text" id="postCode" name="postCode" value=""><br>
+	  	<label for="postOffice">Post office:</label><br>
+	  	<input type="text" id="postOffice" name="postOffice" value=""><br>
+	  	
+	  	<script src="studentUpdate.js"></script>
+	  	
+	  	<input type="button" onclick="updateStudent()" value="Update">
+	  	<input type="button" onclick="goToMainPage()" value="Cancel">
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,16 @@
+table, th, td {
+	border-collapse: collapse;
+	border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+th, td {
+  	padding: 5px;
+}
+thead {
+	background-color: lightgrey;
+}
+th.link, span.link{
+	color: blue;
+	text-decoration: underline;
+}
